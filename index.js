@@ -171,7 +171,6 @@ class AirportViewController {
     this.clear();
 
     let val = this.input.value;
-    this.clear();
     if (!val) return;
     let newNode = document.createElement("div");
     newNode.setAttribute("id", this.input.id + "autocomplete-list");
